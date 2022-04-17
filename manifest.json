@@ -1,0 +1,9 @@
+{
+    "name":"Computer Accessories",
+    "start_url":"/index.html",
+    "short_name":"ComputerAccessories",
+    "display":"standalone",
+    "background_color":"#FFE902",
+    "theme_color":"#FFE1C4",
+    "orientation": "portrait-primary"
+}
