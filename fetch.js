@@ -15,4 +15,3 @@ self.addEventListener('fetch', evt => {
         })
     )
 });
-bjp-inmd-ity
