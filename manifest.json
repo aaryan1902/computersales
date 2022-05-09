@@ -1,9 +1,27 @@
 {
-    "name":"Computer Accessories",
-    "start_url":"/index.html",
-    "short_name":"ComputerAccessories",
-    "display":"standalone",
-    "background_color":"#FFE902",
-    "theme_color":"#FFE1C4",
-    "orientation": "portrait-primary"
+    "name": "Computer Accessories",
+    "short_name": "Computer Accessories",
+    "start_url": "/",
+    "scope": ".",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FF6600",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/com144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+            
+        },
+        {
+            "src": "images/com144.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+            
+        }
+    ]
+
+
 }
