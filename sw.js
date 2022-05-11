@@ -70,8 +70,8 @@ const assets = [
    "images/about.jpg",
    "images/banner.jpg",
    "images/bg.jpg",
-   "images/com144.png",
-   "images/com512.png",
+   "images/thr144.png",
+   "images/thr512.png",
    "images/contact_g.jpg",
    "images/cos.png",
    "images/cross.png",
@@ -102,7 +102,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(compPWA).then(cache => {
+    caches.open(comPWA).then(cache => {
       cache.addAll(assets)
       // cache.addAll([
       //   "/",
